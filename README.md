@@ -1,4 +1,4 @@
-# 🎧 Smart Noise Suppression (Hobby Project)
+# 🎧 Smart Noise Suppression
 
 A lightweight AI model that denoises audio spectrograms — simulating a step toward real-world applications in hearing aids and headsets.
 

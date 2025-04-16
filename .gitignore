@@ -1,2 +1,4 @@
 # OS / Editor settings
 .DS_Store
+# Jupyter notebook checkpoints (autosaves)
+.ipynb_checkpoints/

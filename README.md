@@ -77,14 +77,5 @@ This project includes a plain C implementation of model inference using fixed-po
 
 ### 📂 Folder: `c_inference/`
 
-- `model_infer.c`: Fixed-point conv2D, ReLU, and test code
+- `model_infer.c`: Fixed-point conv2D, ReLU
 - `model_weights.h`: Exported model weights from PyTorch (Q7.8)
-- `input_block.h`: Real spectrogram input (Q7.8 format)
-
-### 🧪 How to Build and Run
-
-```bash
-cd c_inference
-gcc model_infer.c -o model_infer
-./model_infer
-```

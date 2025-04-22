@@ -23,7 +23,7 @@ criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # Training loop
-for epoch in range(100):
+for epoch in range(500):
     optimizer.zero_grad()
     output = model(noisy_tensor)
     loss = criterion(output, clean_tensor)

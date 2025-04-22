@@ -65,9 +65,9 @@ python scripts/reconstruct_audio.py
 
 | Type        | File                       |
 |-------------|----------------------------|
-| Noisy Input | `data/test.wav`            |
+| Clean Ref   | `data/test.wav`            |
 | Denoised    | `output/denoised.wav`      |
-| Clean Ref   | `output/reconstructed.wav` |
+| Noisy Input | `output/train_noisy.wav`   |
 
 ---
 
